@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["lib/*"]
+    },
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  "include": ["lib/**/*"]
+}
